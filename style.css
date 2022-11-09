@@ -1,0 +1,41 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.icon{
+    width: 1.5vw;
+}
+
+.text{
+    font-size: 22px;
+}
+
+.background{
+background-image: url(/assets/images/background.png);
+background-size: cover;
+background-position: center;
+}
+
+.link{
+text-decoration: none;
+color: #2e3092;
+}
+
+.link:hover{
+    color: #2e3092;
+}
+
+@media screen and (max-width: 1000px){
+    .img{
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .text{
+        font-size: 15px;
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
+}
